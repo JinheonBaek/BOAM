@@ -1,10 +1,16 @@
+import os
+import sys
 import time
 import requests
 import cv2
 
+# Config
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+import config
+
 # Variables
 _url = "https://westus.api.cognitive.microsoft.com/vision/v1.0/analyze"
-_key = "4f96fc417aa341f39030ed3562c38889"
+_key = config.getCogkey()
 _maxNumRetries = 3
 
 _headers = dict()

@@ -47,7 +47,7 @@ def main():
     # test video shots setting for enhance speed
     # shots = [84, 140, 288, 318, 342, 367, 390, 417, 443, 659, 724, 847, 881, 929, 988, 1085, 1129, 1170, 1363, 1409, 1455, 1504, 1577, 1615, 1664, 1687, 1713, 1751, 1962]
 
-    controls(path, filename, shots)
+    # controls(path, filename, shots)
 
 if __name__ == '__main__':
     main()
